@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Usage
 Refer to the provided examples and documentation for guidance on how to generate synthetic datasets for your specific use case.
-```python
+
 from synthetic_data import TabularDataGenerator, ClassificationDataGenerator, TimeSeriesDataGenerator
 
 # Tabular data generation
