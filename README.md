@@ -15,15 +15,17 @@ This repository contains a Python-based framework for generating accurate and sa
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/synthetic-data-generation.git
-cd synthetic-data-generation
+git clone https://github.com/syntheticdataset/synthetic-dataset.git
+cd synthetic-dataset
 pip install -r requirements.txt
+```
 
 ## Usage
 Refer to the provided examples and documentation for guidance on how to generate synthetic datasets for your specific use case.
-```python
+
 from synthetic_data import TabularDataGenerator, ClassificationDataGenerator, TimeSeriesDataGenerator
 
+```python
 # Tabular data generation
 tabular_gen = TabularDataGenerator(num_rows=1000)
 tabular_data = tabular_gen.generate()
@@ -42,4 +44,4 @@ time_series_data = time_series_gen.generate()
 Please read the CONTRIBUTING.md file for details on how to contribute to the project. We welcome pull requests, bug reports, and feature requests.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - [Licence](https://github.com/syntheticdataset/synthetic-dataset/blob/main/LICENSE) see the  file for details.
